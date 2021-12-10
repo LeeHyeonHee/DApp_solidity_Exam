@@ -1,0 +1,5 @@
+pragma solidity ^0.4.24;
+
+contract FundingLimitStrategy {
+    function isFullInvestmentWithinLimit(uint256 _investment, uint256 _fullInvestmentReceived) public view returns (bool);
+}
